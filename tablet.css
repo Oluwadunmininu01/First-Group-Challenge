@@ -1,0 +1,14 @@
+/* body */
+body{
+    max-width: 1024px;
+}
+/* mockups-centre */
+section.mockups-centre{
+    margin-top: 60px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section.mockups-centre img{
+    width:30rem;
+}
