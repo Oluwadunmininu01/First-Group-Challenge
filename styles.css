@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: white;
+    margin-top:40px;
+    margin-left: 40px;
+    margin-right:40px;
+  }
+/* nav area */
+.logo img{
+    width:120px;
+}
+button{
+    border: 1px solid hsl(322, 100%, 66%);
+    width:100px;
+    height:30px;
+    border-radius: 15px;
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    transition: .3s;
+}
+button:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* hero section */
+section.hero{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+}
+.hero-content{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+section.hero h1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.0;
+    margin-bottom: 10px;
+}
+section.hero p{
+    max-width: 350px;
+    font-size: 0.7rem;
+    color: hsl(192, 100%, 9%);
+   
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+button.getstarted{
+    width:210px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    transition: .3s;
+}
+button.getstarted:hover{
+    background-color: transparent;
+    color:hsl(322, 100%, 66%);
+}
+/* mockups-centre */
+section.mockups-centre{
+    margin-top: 60px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section.mockups-centre img{
+    width:40rem;
+}
+
+
